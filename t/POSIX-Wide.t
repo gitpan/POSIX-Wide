@@ -30,7 +30,7 @@ BEGIN { MyTestHelpers::nowarnings(); }
 # doesn't provoke a "used once" warning
 use POSIX::Wide;
 
-my $want_version = 9;
+my $want_version = 10;
 is ($POSIX::Wide::VERSION, $want_version, 'VERSION variable');
 is (POSIX::Wide->VERSION,  $want_version, 'VERSION class method');
 { ok (eval { POSIX::Wide->VERSION($want_version); 1 },

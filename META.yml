@@ -26,4 +26,4 @@ requires:
 resources:
   homepage: http://user42.tuxfamily.org/posix-wide/index.html
   license: http://www.gnu.org/licenses/gpl.html
-version: '9'
+version: '10'

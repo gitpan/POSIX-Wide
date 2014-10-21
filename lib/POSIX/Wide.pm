@@ -32,9 +32,9 @@ use strict;
 use warnings;
 use POSIX ();
 use Encode;
-use Encode::Locale;
+use Encode::Locale;  # has 'locale' from its initial 0.01 release
 
-our $VERSION = 9;
+our $VERSION = 10;
 
 use Exporter;
 our @ISA = ('Exporter');

@@ -25,13 +25,13 @@ Section: perl
 Priority: optional
 Build-Depends: cdbs, debhelper (>= 5)
 Maintainer: Kevin Ryde <user42_kevin@yahoo.com.au>
-Standards-Version: 3.9.5
+Standards-Version: 3.9.6
 Homepage: http://user42.tuxfamily.org/posix-wide/index.html
 Bugs: mailto:user42_kevin@yahoo.com.au
 
 Package: libposix-wide-perl
 Architecture: all
-Depends: perl (>= 5.8.1), ${perl:Depends}, ${misc:Depends}
+Depends: perl (>= 5.8.1), libencode-locale-perl, ${perl:Depends}, ${misc:Depends}
 Breaks: libi18n-langinfo-wide-perl (<< 9)
 Replaces: libi18n-langinfo-wide-perl (<< 9)
 Description: POSIX module functions with wide-char strings
